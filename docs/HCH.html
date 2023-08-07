@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WRS</title>
+    <!--
+    Default User
+    robotics
+    -->
+</head>
+<body>
+
+
+    <center>
+        <h1>abb机器人web端开发+</h1>
+        <button type="button" onclick="getRWSesource()">机器人基本信息</button>
+    </center>
+
+    <p id="name">1.名字:</p>
+    <p id="version">2.版本:</p>
+    <p id="versionname">3.版本名称:</p>
+    <p id="options">4.配置信息:</p>
+    <ol>
+
+        <li id="li0"></li>
+        <li id="li1"></li>
+        <li id="li2"></li>
+        <li id="li3"></li>
+        <li id="li4"></li>
+        <li id="li5"></li>
+        <li id="li6"></li>
+        <li id="li7"></li>
+        <li id="li8"></li>
+
+    </ol>
+    <center>
+
+        <button type="button" onclick="getJ()">机器人6轴角度</button>
+    </center>
+    <ul>
+        <li id="J1"></li>
+        <li id="J2"></li>
+        <li id="J3"></li>
+        <li id="J4"></li>
+        <li id="J5"></li>
+        <li id="J6"></li>
+    </ul>
+
+
+    <center>
+
+        <button type="button" onclick="ZBX()">坐标系信息</button>
+    </center>
+    <ul>
+        <li id="zuobiaoxi1"></li>
+        <li id="zuobiaoxi2"></li>
+        <li id="zuobiaoxi3"></li>
+        <li id="zuobiaoxi4"></li>
+        <li id="zuobiaoxi5"></li>
+        <li id="zuobiaoxi6"></li>
+        <li id="zuobiaoxi7"></li>
+    </ul>
+
+
+
+
+
+
+
+    <center>
+
+        <button type="button" onclick="IO()">获取IO信息</button>
+    </center>
+
+    <ol>
+        <li id="io0"></li>
+        <li id="io1"></li>
+        <li id="io2"></li>
+        <li id="io3"></li>
+        <li id="io4"></li>
+        <li id="io5"></li>
+        <li id="io6"></li>
+        <li id="io7"></li>
+        <li id="io8"></li>
+        <li id="io9"></li>
+        <li id="io10"></li>
+        <li id="io11"></li>
+        <li id="io12"></li>
+        <li id="io13"></li>
+        <li id="io14"></li>
+        <li id="io15"></li>
+        <li id="io16"></li>
+        <li id="io17"></li>
+        <li id="io18"></li>
+<li id="io19"></li>
+<li id="io20"></li>
+<li id="io21"></li>
+<li id="io22"></li>
+<li id="io23"></li>
+<li id="io24"></li>
+<li id="io25"></li>
+<li id="io26"></li>
+<li id="io27"></li>
+<li id="io28"></li>
+<li id="io29"></li>
+<li id="io30"></li>
+<li id="io31"></li>
+<li id="io32"></li>
+<li id="io33"></li>
+<li id="io34"></li>
+
+    </ol>
+
+
+    <center>
+        <p>控制do信号DOxp</p>
+        <span><button type="button" onclick="IOout('lvalue=1')">置位</button></span>
+        <span><button type="button" onclick="IOout('lvalue=0')">复位</button></span>
+    </center>
+
+
+    <center>
+        <p>电机开关</p>
+        <span><button type="button" onclick="dianji('ctrl-state=motoron')">开</button></span>
+        <span><button type="button" onclick="dianji('ctrl-state=motoroff')">关</button></span>
+    </center>
+
+
+
+    <center>
+        <p id="xx">xxxx</p>
+        <button type="button" onclick="kongzhi0()">xxxx</button>
+
+    </center>
+
+    <button type="button" onclick="us()">us++</button>
+    <button type="button" onclick="mot()">mot</button>
+    <button type="button" onclick="dz()">dz</button>
+    <button type="button" onclick="cc()">cc</button>
+    <button type="button" onclick="j1()">j1</button>
+    <button type="button" onclick="j2()">j2</button>
+
+
+
+
+
+    <script src="cs.js"></script>
+    <script src="kongzhi.js"></script>
+    <script src="dianji.js"></script>
+    <script src="xinxi.js"></script>
+    <script src="6zhou.js"></script>
+    <script src="zuobiaoxi.js"></script>
+    <script src="ioint.js"></script>
+    <script src="ioout.js"></script>
+</body>
+</html>

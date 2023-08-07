@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\addins\ae-an\button\bin\Debug\button.rsaddin
+C:\Users\Administrator\Desktop\addins\ae-an\button\bin\Debug\button.dll
+C:\Users\Administrator\Desktop\addins\ae-an\button\bin\Debug\button.pdb
+C:\Users\Administrator\Desktop\addins\ae-an\button\obj\Debug\button.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\addins\ae-an\button\obj\Debug\button.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\addins\ae-an\button\obj\Debug\button.dll
+C:\Users\Administrator\Desktop\addins\ae-an\button\obj\Debug\button.pdb
