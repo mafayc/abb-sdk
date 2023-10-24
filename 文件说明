@@ -1,4 +1,4 @@
 0.环境：rb6.08
 1.pcsdk：abb  pc-sdk
 2.rssdk：smart button
-3.websdk：docs c#web
+3.websdk：docs c#web//手动模式+电机使能，才可以正常工作
